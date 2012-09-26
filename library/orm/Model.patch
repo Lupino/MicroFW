@@ -1,0 +1,4 @@
+31c31
+< 						$query=$db::find("{$val['target_key']}=?");
+---
+> 						eval('$query = '.$db.'::find("'.$val['target_key'].'=?");');

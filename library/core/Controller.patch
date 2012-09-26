@@ -1,0 +1,4 @@
+44c44
+< 			$this -> $action();
+---
+> 			eval('$this -> '.$action.'();');

@@ -1,0 +1,10 @@
+74c73
+< 			$obj[]=new $this->Model($val);
+---
+> 			eval('$obj[]=new '.$this->Model.'($val);');
+80c80,82
+< 		return new $this->Model($query->getOne($arr));
+---
+> 		$ret = $query->getOne($arr);
+> 		eval('$obj=new '.$this->Model.'($ret);');
+> 		return $obj;
