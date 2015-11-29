@@ -1,4 +1,4 @@
-<?
+<?php
 return array(
 	'Model'=>'orm'.DS.'Model.php',
 	'Query'=>'orm'.DS.'Query.php',

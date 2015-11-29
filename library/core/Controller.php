@@ -1,4 +1,4 @@
-<?
+<?php
 if(!defined('VIEWDIR'))exit('未定义视图位置：VIEWDIR');
 if(!defined('ONLYONEVIEWDIR'))exit('未定义是否单一视图位置<br/>ture:为单一<br/>false:为一个Controller一个view。');
 abstract class Controller{

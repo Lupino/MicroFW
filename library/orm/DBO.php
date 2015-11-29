@@ -1,4 +1,4 @@
-<?
+<?php
 class DBO extends PDO {
 	public function __construct($dsn, $username="", $password="", $driver_options=array()) {
 		parent::__construct($dsn,$username,$password, $driver_options);

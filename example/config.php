@@ -1,4 +1,4 @@
-<?
+<?php
 return array(
 	'app'=>'app',
 	'Controller'=>'app'.DS.'Controller',

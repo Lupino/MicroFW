@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * QView_Render_PHP_Parser 类实现了视图的分析
  *

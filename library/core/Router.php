@@ -1,4 +1,4 @@
-<?
+<?php
 //if(!defined('APPDIR'))exit('未定义App位置：APPDIR');
 if(!defined('DS'))define('DS', DIRECTORY_SEPARATOR);
 /*

@@ -1,4 +1,4 @@
-<?
+<?php
 //if(!defined('MODELDIR'))exit('未定义模型位置：MODELDIR');
 if(!defined('CONTROLLERDIR'))exit('未定义Controller位置：CONTROLLERDIR');
 //if(!defined('APPDIR'))exit('未定义App位置：APPDIR');

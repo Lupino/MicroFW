@@ -1,4 +1,4 @@
-<?
+<?php
 if(!defined('DSN'))exit('未定义数据库信息：<br/>Eg:define("DSN","mysql:host=localhost;dbname=Model");');
 if(!defined('DUN'))exit('未定义数据库用户名：<br/>Eg:define("DUN","")');
 if(!defined('DPW'))exit('未定义数据库用户密码：<br/>Eg:define("DPW","")');

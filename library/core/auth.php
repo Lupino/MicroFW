@@ -1,4 +1,4 @@
-<?
+<?php
 class Auth{
     /*
         deny role1,role2...
